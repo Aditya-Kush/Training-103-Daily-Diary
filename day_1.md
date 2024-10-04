@@ -1,5 +1,6 @@
 # Date = 11 June 2024
 # BASIC ABOUT PYTHON
+Today i learnt about basic concepts of Python, What can a Python do and Why we use Python.
 ---
 # What is Python?
 Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.

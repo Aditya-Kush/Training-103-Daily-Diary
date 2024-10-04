@@ -1,3 +1,7 @@
+# Date = 13 June 2024
+# PYTHON LIBRARIES
+Today i continued with the previous topic and learnt about some of the Python Libraries.
+
 # Introduction to TensorFlow
 
 ## What is TensorFlow?
