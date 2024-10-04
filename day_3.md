@@ -1,6 +1,6 @@
 # Date = 13 June 2024
 # PYTHON LIBRARIES
-Today i learnt about one of the python Library named Numpy.
+Today i learnt about one of the python Library named NumPy.
 
 # Python Libraries
 Python’s standard library is very extensive offering a wide range of facilities as indicated by the long table of contents listed below. The library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming. A Python library is a collection of pre-written code, functions, and modules that you can use to perform common tasks without having to write the code from scratch. These libraries help save time and effort by providing ready-made solutions for a wide range of programming problems. 
@@ -42,6 +42,10 @@ Python has a vast ecosystem of libraries for tasks such as data analysis (e.g., 
 4. Random Number Generation: The library has a comprehensive set of random number generation functions, allowing you to create random data for simulations, statistical sampling, or testing purposes.
 
 5. Array Manipulation: NumPy provides functions for reshaping, slicing, and indexing arrays, making it easier to manipulate large datasets and perform tasks like filtering, aggregating, and transforming data.
+
+
+## Installation of NumPy
+You can install NumPy Libray using command "pip install numpy"
 
 
 ## One Simple Program for Creating a NumPy Array

@@ -42,7 +42,7 @@ Pandas is a powerful and open-source Python library. The Pandas library is used 
 ## Installing Pandas
 The first step in working with Pandas is to ensure whether it is installed in the system or not.  If not, then we need to install it on our system using the pip command.
 
-## Follow these steps to install Pandas:
+## Installation of Pandas
 
 ### Step 1: 
 Type ‘cmd’ in the search box and open it.
