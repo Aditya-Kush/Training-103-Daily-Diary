@@ -32,5 +32,5 @@ Scikit-learn is a popular open-source Python library for machine learning, built
 
 - PyTorch provides two high-level features
 
-        Tensor computing (like NumPy) with strong acceleration via graphics processing units (GPU).
-        Deep neural networks built on a tape-based automatic differentiation system.
+1. Tensor computing (like NumPy) with strong acceleration via graphics processing units (GPU).
+2. Deep neural networks built on a tape-based automatic differentiation system.
