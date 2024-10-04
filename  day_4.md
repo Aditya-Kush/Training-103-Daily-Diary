@@ -1,40 +1,70 @@
-# Date = 13 June 2024
+# Date = 14 June 2024
 # PYTHON LIBRARIES
-Today i continued with the previous topic and learnt about some of the Python Libraries.
+Today i continued with the previous topic and learnt about one more Python Library named Pandas.
 
-# Introduction to TensorFlow
+# Introduction to Pandas
+Pandas is an open-source library that is built on top of NumPy library. It is a Python package that offers various data structures and operations for manipulating numerical data and time series. It is mainly popular for importing and analyzing data much easier. Pandas is fast and it has high-performance & productivity for users.
+Pandas is a powerful and open-source Python library. The Pandas library is used for data manipulation and analysis. Pandas consist of data structures and functions to perform efficient operations on data.
 
-## What is TensorFlow?
-- TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.It is one of the two most popular deep learning libraries alongside PyTorch.
+## What is Pandas?
+•⁠  ⁠The name "Pandas" has a reference to both "Panel Data" and "Python Data Analysis" and was created by Wes McKinney in 2008.
+- Pandas is a powerful and versatile library that simplifies the tasks of data manipulation in Python. Pandas is well-suited for working with tabular data, such as spreadsheets or SQL tables.
+- The Pandas library is an essential tool for data analysts, scientists and engineers working with structured data in Python.
+•⁠  ⁠Pandas is a Python library used for working with data sets.
+•⁠  ⁠It has functions for analyzing, cleaning, exploring and manipulating data.
 
-- It was developed by the Google Brain team for Google's internal use in research and production. The initial version was released under the Apache License 2.0 in 2015. Google released an updated version, TensorFlow 2.0 in September 2019.
+## Why Use Pandas?
+•⁠  ⁠Relevant data is very important in data science.
+•⁠  ⁠Pandas allows us to analyze big data and make conclusions based on statistical theories.
+•⁠  ⁠Pandas can clean messy data sets and make them readable and relevant.
 
-- TensorFlow can be used in a wide variety of programming languages, including Python, JavaScript, C++, and Java facilitating its use in a range of applications in many sectors.
+## What Can Pandas Do?
+Here is a list of things that we can do using Pandas.
+- Data set cleaning, merging and joining.
+- Easy handling of missing data (represented as NaN) in floating point as well as non-floating point data.
+- Columns can be inserted and deleted from DataFrame and higher-dimensional objects.
+- Powerful group by functionality for performing split-apply-combine operations on data sets.
+Data Visualization.
+⁠- Pandas are also able to delete rows that are not relevant or contains wrong values like empty or NULL values. This is called cleaning the data.
+•⁠  ⁠Pandas gives you answers about the data. 
+ ⁠Like:
+1.  ⁠Is there a correlation between two or more columns?
+2.  ⁠What is average value?
+3.⁠  ⁠Max value?
+4.⁠  ⁠Min value?
 
-# Introduction to Scikit-Learn
+##Installing Pandas
+The first step in working with Pandas is to ensure whether it is installed in the system or not.  If not, then we need to install it on our system using the pip command.
 
-## What is Scikit-Learn
-Scikit-learn is a popular open-source Python library for machine learning, built on top of NumPy, SciPy, and matplotlib. It provides easy-to-use tools for building and evaluating machine learning models, including both supervised (e.g., regression, classification) and unsupervised (e.g., clustering, dimensionality reduction) algorithms. With features for data preprocessing, model selection, and hyperparameter tuning, Scikit-learn is widely used for data analysis, machine learning, and predictive modeling. Its simple API, extensive documentation, and integration with other Python libraries make it a go-to tool for both beginners and experts in machine learning.
+## Follow these steps to install Pandas:
 
-## Key Features:
-- User-Friendly API: Consistent interface with methods like fit(), predict(), and score().
-- Preprocessing Tools: Utilities for data normalization, encoding categorical variables, and handling missing values.
-- Model Selection: Tools for hyperparameter tuning and cross-validation.
-- Integration: Works well with other libraries like pandas and matplotlib.
+### Step 1: 
+Type ‘cmd’ in the search box and open it.
+### Step 2:
+Locate the folder using the cd command where the python-pip file has been installed.
 
-## Use Cases:
-- Classification: Identifying categories (e.g., spam detection).
-- Regression: Predicting continuous values (e.g., house prices).
-- Clustering: Grouping similar data points (e.g., customer segmentation).
-- Scikit-learn is essential for anyone looking to develop machine learning models efficiently and effectively.
+### Step 3:
+After locating it, type the command 'pip install pandas'.
 
-#Introduction to PyTorch
+## Importing Pandas
+After the Pandas have been installed in the system, you need to import the library. This module is generally imported by command 'import pandas as pd'
 
-- PyTorch is a machine learning library based on the Torch library used for applications such as computer vision and natural language processing originally developed by Meta AI and now part of the Linux Foundation umbrella. It is one of the two most popular deep learning libraries alongside TensorFlow, offering free and open-source software released under the modified BSD license. Although the Python interface is more polished and the primary focus of development, PyTorch also has a C++ interface.
+## One Simple Program for Creating a series using Pandas Library
 
-- A number of pieces of deep learning software are built on top of PyTorch, including Tesla Autopilot Uber's Pyro, Hugging Face's Transformers, PyTorch Lightning and Catalyst.
+```python
 
-- PyTorch provides two high-level features
+import pandas as pd 
+import numpy as np
 
-1. Tensor computing (like NumPy) with strong acceleration via graphics processing units (GPU).
-2. Deep neural networks built on a tape-based automatic differentiation system.
+# Creating empty series 
+ser = pd.Series() 
+print("Pandas Series: ", ser) 
+
+# simple array 
+data = np.array(['g', 'e', 'e', 'k', 's']) 
+  
+ser = pd.Series(data) 
+print("Pandas Series:\n", ser)
+
+```
+

@@ -6,12 +6,7 @@ Today i learnt about basic concepts of Python, What can a Python do and Why we u
 # What is Python?
 Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
-It is used for:
-
-web development (server-side),
-software development,
-mathematics,
-system scripting.
+It is used for Web development (server-side), Software development, Mathematics, System scripting.
 
 ## What can Python do?
 - Python can be used on a server to create web applications.
