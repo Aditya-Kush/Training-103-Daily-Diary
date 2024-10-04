@@ -1,7 +1,8 @@
 # Date = 12 June 2024
 # INSTALLATION OF PYTHON
 Today i learnt about Installation of Python on various operating system.
----
+
+
 ## Install Python 3 with the Official Installer
 Python is one of the most powerful programming languages, mostly used in data science, machine learning, and big data analytics. So, installing Python is essential for all programmers.
 Here are the following steps for the Installation of Python : 
