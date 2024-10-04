@@ -14,7 +14,7 @@ Pandas is a powerful and open-source Python library. The Pandas library is used 
 •⁠  ⁠It has functions for analyzing, cleaning, exploring and manipulating data.
 
 ## Why Use Pandas?
-•⁠  ⁠Relevant data is very important in data science.
+•⁠  ⁠Relevant data is very important in data Science.
 •⁠  ⁠Pandas allows us to analyze big data and make conclusions based on statistical theories.
 •⁠  ⁠Pandas can clean messy data sets and make them readable and relevant.
 
