@@ -13,11 +13,11 @@ Python has a vast ecosystem of libraries for tasks such as data analysis (e.g., 
 - NumPy stands for Numerical Python.
 - NumPy is a Python library used for working with arrays.
 - It also has functions for working in domain of linear algebra, fourier transform, and matrices.
-
-## Why Use NumPy?
-- In Python we have lists that serve the purpose of arrays but they are slow to process Therefore NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
+ NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
 - The array object in NumPy is called ndarray and it provides a lot of supporting functions that make working with ndarray very easy.
 - Arrays are very frequently used in data science, where speed and resources are very important.
+
+## Why Use NumPy?
 
 1. Efficient Numerical Computation: NumPy provides fast and efficient operations on large arrays and matrices, making it ideal for scientific and mathematical computing tasks. Its vectorized operations are much faster than using Python's built-in lists.
 
