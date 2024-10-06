@@ -1,7 +1,8 @@
 # Date = 12 June 2024
 # INSTALLATION OF PYTHON
-Today i learnt about Installation of Python on various operating system.
+Today I learnt about Installation of Python on various operating systems.
 
+---
 
 ## Install Python 3 with the Official Installer
 Python is one of the most powerful programming languages, mostly used in data science, machine learning, and big data analytics. So, installing Python is essential for all programmers.
@@ -22,11 +23,23 @@ Let’s verify that the latest version of Python and IDLE installed correctly. T
 ### Step 5. 
 Let’s write a simple Python code and run it in IDLE. Type the following statement, and hit the return key.
 
+
 ```python
 
-a = int(input('Enter 1st number'))
-b = int(input('Enter 2nd number'))
-c = a + b
-print(c)
+x = 5
+y = 10
+
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
 
 ```
+
+## Today's Learning Summary:
+ Today I learned how to install Python 3 on macOS. First, I downloaded the installer from the official Python website. After completing the installation via the wizard, I verified the installation by running Python's IDLE and writing a simple Python script to swap values between two variables confirming that Python was installed correctly.
+
+
+

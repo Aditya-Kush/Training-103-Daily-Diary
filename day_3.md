@@ -1,10 +1,15 @@
 # Date = 13 June 2024
 # PYTHON LIBRARIES
-Today i learnt about one of the python Library named NumPy.
+The goal of Day 3 was to learn how to use "NumPy", A fundamental library for numerical computing in Python. NumPy provides efficient array operations, mathematical functions and tools for working with large datasets.
+
+---
+
 
 # Python Libraries
 Python’s standard library is very extensive offering a wide range of facilities as indicated by the long table of contents listed below. The library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming. A Python library is a collection of pre-written code, functions, and modules that you can use to perform common tasks without having to write the code from scratch. These libraries help save time and effort by providing ready-made solutions for a wide range of programming problems. 
 Python has a vast ecosystem of libraries for tasks such as data analysis (e.g., NumPy, Pandas), Machine learning (e.g., TensorFlow, scikit-learn) and more. To use a library in Python, you typically install it via pip (Python's package manager) and import it into your project.
+
+---
 
 # Introduction to NumPy
 
@@ -16,6 +21,8 @@ Python has a vast ecosystem of libraries for tasks such as data analysis (e.g., 
  NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
 - The array object in NumPy is called ndarray and it provides a lot of supporting functions that make working with ndarray very easy.
 - Arrays are very frequently used in data science, where speed and resources are very important.
+
+---
 
 ## Why Use NumPy?
 
@@ -43,9 +50,10 @@ Python has a vast ecosystem of libraries for tasks such as data analysis (e.g., 
 
 5. Array Manipulation: NumPy provides functions for reshaping, slicing, and indexing arrays, making it easier to manipulate large datasets and perform tasks like filtering, aggregating, and transforming data.
 
+---
 
 ## Installation of NumPy
-You can install NumPy Libray using command "pip install numpy"
+You can install NumPy Libray using command "pip install numpy" on your Terminal.
 
 
 ## One Simple Program for Creating a NumPy Array
@@ -58,3 +66,9 @@ print(arr)
 print(type(arr))
 
 ```
+
+## Today's Learning Summary:
+Today, I learned that NumPy is a powerful Python library designed for numerical computations particularly for handling large multi-dimensional arrays with the ndarray object. It enables efficient operations, supports a wide range of mathematical functions and integrates well with other libraries like Pandas and Matplotlib. I also explored how to install NumPy and create basic arrays which are crucial for data manipulation and analysis in data science.
+
+
+

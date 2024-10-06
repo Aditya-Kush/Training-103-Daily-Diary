@@ -1,12 +1,18 @@
 # Date = 19 June 2024
 # PYTHON LIBRARIES
-Today i continued with the previous topic and learnt about one more Python Library named Scikit-Learn.
+The goal of Day 6 was on understanding how to use "Scikit-learn", A popular library for machine learning in Python. Scikit-learn provides efficient tools for classification, regression, clustering and more. In this session, I covered how to use the library for regression tasks like predicting stock prices (which is going to be my project at th end of this Training).
+
+---
 
 # Introduction to Scikit-Learn
 Scikit-learn(often abbreviated as sklearn) is a powerful Python library for machine learning. It provides simple and efficient tools for data mining and data analysis, built on top of NumPy, SciPy and Matplotlib. Scikit-learn offers a wide range of machine learning algorithms for classification, regression, clustering, and dimensionality reduction. It also includes tools for model evaluation, feature selection, data preprocessing, and model validation, making it a comprehensive library for machine learning tasks. Scikit-learn is known for its ease of use, excellent documentation, and a strong community, making it a popular choice for both beginners and experts in machine learning.
 
+---
+
 ## What is Scikit-Learn
 Scikit-learn is a popular open-source Python library for machine learning, built on top of NumPy, SciPy, and matplotlib. It provides easy-to-use tools for building and evaluating machine learning models, including both supervised (e.g., regression, classification) and unsupervised (e.g., clustering, dimensionality reduction) algorithms. With features for data preprocessing, model selection, and hyperparameter tuning, Scikit-learn is widely used for data analysis, machine learning, and predictive modeling. Its simple API, extensive documentation, and integration with other Python libraries make it a go-to tool for both beginners and experts in machine learning.
+
+---
 
 ## Why We Use Scikit-learn?
 
@@ -33,6 +39,8 @@ Scikit-learn is a popular open-source Python library for machine learning, built
 4. Model Tuning: It allows for hyperparameter tuning using GridSearchCV and RandomizedSearchCV, helping you optimize model performance by testing multiple combinations of parameters.
 
 5. Model Evaluation: Scikit-learn provides a wide range of evaluation metrics like accuracy, confusion matrix, ROC-AUC, and more, as well as cross-validation to ensure that your model generalizes well to new, unseen data.
+
+---
 
 
 ## Installation of Scikit-Learn 
@@ -63,7 +71,6 @@ python -m pip show scikit-learn
 
 ```python
 
-# Import scikit learn
 from sklearn import datasets
 # Load data
 iris= datasets.load_iris()
@@ -89,3 +96,9 @@ clf.predict([[ 5.0,  3.6,  1.3,  0.25]])
 print(clf.coef_ )
 
 ```
+
+## Today's Learning Summary:
+Today, I learned about Scikit-learn, A Python library for machine learning that provides easy-to-use tools for Classification, Regression, Clustering and dimensionality reduction. It simplifies data preprocessing, model evaluation and hyperparameter tuning. It integrates well with libraries like NumPy and Pandas. I also learned how to install Scikit-learn and implement basic tasks like loading datasets and running a Support Vector Machine (SVM) model for classification.
+
+
+
