@@ -24,7 +24,7 @@ Linear Regression: A linear regression model is used to predict future stock pri
 
 ---
 
-# Day 5: Visualization and Results Analysis
+# Day 6: Visualization and Results Analysis
 
 ## Objective: 
 Visualize both the historical stock prices and the predicted future prices.

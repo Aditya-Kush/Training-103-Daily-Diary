@@ -56,7 +56,9 @@ pip: Python’s package installer, pip comes bundled with Python installations f
 3. Setting up Virtual Environments (Optional but Recommended):
 
 3.1 Installation: Install virtualenv using pip using command "pip install virtualenv" on your terminal.
-3.2 create virtual Environment using command "virtualenv venv" on your terminal.
+
+3.2 Create virtual Environment using command "virtualenv venv" on your terminal.
+
 3.3 Activate Virtual Environment using command "venv\Scripts\activate" on your terminal.
 
 
